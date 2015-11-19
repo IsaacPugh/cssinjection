@@ -1,3 +1,7 @@
 body {
-  background-color: fuchsia;
+  background-color: green;
+}
+.-cx-PRIVATE-PostInfo__likeButton {
+  height: 0px;
+  width: 0px;
 }
