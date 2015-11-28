@@ -1,6 +1,6 @@
 # CSS Injection
 
-To run this, run:
+To inject CSS into a webpage, run this code in the console on your browser:
 ```javascript
 var xmlHttp = new XMLHttpRequest();
 xmlHttp.onreadystatechange = function() {
@@ -13,3 +13,6 @@ xmlHttp.onreadystatechange = function() {
 xmlHttp.open( "GET", 'https://raw.githubusercontent.com/IsaacPugh/cssinjection/master/style.css', true );
 xmlHttp.send( null );
 ```
+
+Another good way to use this code is to use a bookmarklet generator and create a
+bookmarklet that you can click on to affect a webpage more easily.
