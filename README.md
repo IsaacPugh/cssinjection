@@ -1,4 +1,4 @@
-# schoolLoop
+# CSS Injection
 
 To run this, run:
 ```javascript
