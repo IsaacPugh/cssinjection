@@ -10,7 +10,7 @@ xmlHttp.onreadystatechange = function() {
     document.head.appendChild(css);
   };
 };
-xmlHttp.open( "GET", 'https://raw.githubusercontent.com/IsaacPugh/cssinjection/master/style.css', true );
+xmlHttp.open( "GET", 'https://raw.githubusercontent.com/ipugh/cssinjection/master/style.css', true );
 xmlHttp.send( null );
 ```
 
